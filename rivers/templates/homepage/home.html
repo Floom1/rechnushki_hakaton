@@ -39,7 +39,7 @@
 
 <body>
     <header>
-        <h1>Смотрелка</h1>
+        <h1>Речнушки</h1>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -54,7 +54,7 @@
                     </li>
                 {% else %}
                     <li><a href="/accounts/login">Auth</a></li>
-                    <li><a href="{% url 'password_reset' %}">Reset Password</a></li>
+                    <li><a>Reset Password</a></li>
 
                     {% endif %}
             </ul>
@@ -64,7 +64,7 @@
         {% block content %}{% endblock %}
     </main>
     <footer>
-        <p>Практиканты Департамента городского имущества города Москвы</p>
+        <p>Хакатон</p>
     </footer>
 </body>
 </html>
