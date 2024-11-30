@@ -15,6 +15,8 @@ def display_docks_map_from_geojson(geojson_data, output_file="map.html"):
     # Устанавливаем клиента OpenRouteService
     client = Client(key=ORS_API_KEY)
 
+    route = [41, 188, 42, 43, 44, 187, 146]
+
     # Если передан путь к файлу GeoJSON, читаем его
     if isinstance(geojson_data, str):
         with open('C:/Code/Python/django_5/rechnushki_hakaton/rivers/static/maps/hahatoon.geojson', 'r', encoding='utf-8') as file:
@@ -27,7 +29,7 @@ def display_docks_map_from_geojson(geojson_data, output_file="map.html"):
     # Извлечение координат, имени и адреса из GeoJSON
     coordinates = []
     for feature in geojson_data["features"]:
-        if feature["geometry"]["type"] == "Point":
+        if feature["geometry"]["type"] == "Point" and feature["properties"]["id"] in route:
             lat, lon = feature["geometry"]["coordinates"]
             name = feature["properties"].get("name", "Без названия")
             address = feature["properties"].get("address", "Адрес не указан")

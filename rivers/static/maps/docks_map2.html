@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6563e2175e4d159a843bc375045ffb29 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+</head>
+<body>
+
+
+            <div class="folium-map" id="map_6563e2175e4d159a843bc375045ffb29" ></div>
+
+</body>
+<script>
+
+
+            var map_6563e2175e4d159a843bc375045ffb29 = L.map(
+                "map_6563e2175e4d159a843bc375045ffb29",
+                {
+                    center: [55.683699, 37.714149],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_9c39727e19264ad63fb7aa53702d860f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+
+
+            tile_layer_9c39727e19264ad63fb7aa53702d860f.addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+            var marker_82a40c651688c3a6e72c041412fef427 = L.marker(
+                [55.683699, 37.714149],
+                {}
+            ).addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+        var popup_c498991fdf335aaf840d24da9b35439e = L.popup({"maxWidth": "100%"});
+
+
+
+                var html_d827332aec8c87e286863d4c8671beca = $(`<div id="html_d827332aec8c87e286863d4c8671beca" style="width: 100.0%; height: 100.0%;"><b>Печатники</b><br>ул.Гурьянова, д.35</div>`)[0];
+                popup_c498991fdf335aaf840d24da9b35439e.setContent(html_d827332aec8c87e286863d4c8671beca);
+
+
+
+        marker_82a40c651688c3a6e72c041412fef427.bindPopup(popup_c498991fdf335aaf840d24da9b35439e)
+        ;
+
+
+
+
+            var marker_2858853f5713ab1d4218d00a93936be8 = L.marker(
+                [55.69106, 37.696817],
+                {}
+            ).addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+        var popup_767bd9a391eeea0fec56c29abf12521f = L.popup({"maxWidth": "100%"});
+
+
+
+                var html_dbf961907a0ac476c07b3ec7b17a4d0c = $(`<div id="html_dbf961907a0ac476c07b3ec7b17a4d0c" style="width: 100.0%; height: 100.0%;"><b>Меловой</b><br>Нагатинская набережная, владение 74</div>`)[0];
+                popup_767bd9a391eeea0fec56c29abf12521f.setContent(html_dbf961907a0ac476c07b3ec7b17a4d0c);
+
+
+
+        marker_2858853f5713ab1d4218d00a93936be8.bindPopup(popup_767bd9a391eeea0fec56c29abf12521f)
+        ;
+
+
+
+
+            var marker_0b93e90afa58b1bd6a1090e9643f656b = L.marker(
+                [55.689415, 37.675846],
+                {}
+            ).addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+        var popup_1347beff0ac92ca83ec97fb18e274c7b = L.popup({"maxWidth": "100%"});
+
+
+
+                var html_2e5ca27c23c02aa70c4de1219ec80922 = $(`<div id="html_2e5ca27c23c02aa70c4de1219ec80922" style="width: 100.0%; height: 100.0%;"><b>Южный речной вокзал</b><br>г. Москва, левый берег р. Москва 1,7-2,2 км. (Нагатинское спрямление)</div>`)[0];
+                popup_1347beff0ac92ca83ec97fb18e274c7b.setContent(html_2e5ca27c23c02aa70c4de1219ec80922);
+
+
+
+        marker_0b93e90afa58b1bd6a1090e9643f656b.bindPopup(popup_1347beff0ac92ca83ec97fb18e274c7b)
+        ;
+
+
+
+
+            var marker_3eb29190fcfdcc63380a2df7bbc6c371 = L.marker(
+                [55.686457, 37.67215],
+                {}
+            ).addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+        var popup_729d3d4dcef04225185115f2bc4e0899 = L.popup({"maxWidth": "100%"});
+
+
+
+                var html_95ddcac0e23fa5ca8f733bcf2b08a1be = $(`<div id="html_95ddcac0e23fa5ca8f733bcf2b08a1be" style="width: 100.0%; height: 100.0%;"><b>Кленовый бульвар</b><br>г. Москва, Нагатинвская набережная, напротив д.40А</div>`)[0];
+                popup_729d3d4dcef04225185115f2bc4e0899.setContent(html_95ddcac0e23fa5ca8f733bcf2b08a1be);
+
+
+
+        marker_3eb29190fcfdcc63380a2df7bbc6c371.bindPopup(popup_729d3d4dcef04225185115f2bc4e0899)
+        ;
+
+
+
+
+            var marker_aa6668053051df4a8750cea7c45c9534 = L.marker(
+                [55.702836, 37.626632],
+                {}
+            ).addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+        var popup_d7b8645925fa5f250c3b3323112b1966 = L.popup({"maxWidth": "100%"});
+
+
+
+                var html_389cceac936f0d76c15a06aedf1393b0 = $(`<div id="html_389cceac936f0d76c15a06aedf1393b0" style="width: 100.0%; height: 100.0%;"><b>Автозаводский мост</b><br>	Новоданиловская набережная, 2к1	 </div>`)[0];
+                popup_d7b8645925fa5f250c3b3323112b1966.setContent(html_389cceac936f0d76c15a06aedf1393b0);
+
+
+
+        marker_aa6668053051df4a8750cea7c45c9534.bindPopup(popup_d7b8645925fa5f250c3b3323112b1966)
+        ;
+
+
+
+
+            var marker_efaab504dc5a33a7ec9b492f3167d612 = L.marker(
+                [55.6999347, 37.628875],
+                {}
+            ).addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+        var popup_84eb96d2cfe06ed14c137794ff1a21cd = L.popup({"maxWidth": "100%"});
+
+
+
+                var html_636a1b067390a0cb6633d1769dd0decb = $(`<div id="html_636a1b067390a0cb6633d1769dd0decb" style="width: 100.0%; height: 100.0%;"><b>ЗИЛ</b><br>г. Москва, ул. Нов. Башиловка, д. 3</div>`)[0];
+                popup_84eb96d2cfe06ed14c137794ff1a21cd.setContent(html_636a1b067390a0cb6633d1769dd0decb);
+
+
+
+        marker_efaab504dc5a33a7ec9b492f3167d612.bindPopup(popup_84eb96d2cfe06ed14c137794ff1a21cd)
+        ;
+
+
+
+
+            var marker_756704f8bfec91f59e00f3111da67e31 = L.marker(
+                [55.685878, 37.701144],
+                {}
+            ).addTo(map_6563e2175e4d159a843bc375045ffb29);
+
+
+        var popup_3feb3a8bed3eb2422132060676a38c1c = L.popup({"maxWidth": "100%"});
+
+
+
+                var html_01128ca53a3c2f9c18a2a3da35c59777 = $(`<div id="html_01128ca53a3c2f9c18a2a3da35c59777" style="width: 100.0%; height: 100.0%;"><b>Нагатинский затон</b><br>Нагатинская набережная, 34</div>`)[0];
+                popup_3feb3a8bed3eb2422132060676a38c1c.setContent(html_01128ca53a3c2f9c18a2a3da35c59777);
+
+
+
+        marker_756704f8bfec91f59e00f3111da67e31.bindPopup(popup_3feb3a8bed3eb2422132060676a38c1c)
+        ;
+
+
+
+</script>
+</html>
