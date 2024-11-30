@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f356a37b0785def6bb7f7e5b949d1e55 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f356a37b0785def6bb7f7e5b949d1e55" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f356a37b0785def6bb7f7e5b949d1e55 = L.map(
+                "map_f356a37b0785def6bb7f7e5b949d1e55",
+                {
+                    center: [55.73013, 37.597184],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_072b3ea0320daa07cc0f9cf366120bd3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_072b3ea0320daa07cc0f9cf366120bd3.addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+            var marker_f082f0fbdb00ab994a1f2edfeee3f7fc = L.marker(
+                [55.73013, 37.597184],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_1473dba110fce75c54dcd59b523f7a4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d93ab7a56e300b11e1fa7635378536a2 = $(`<div id="html_d93ab7a56e300b11e1fa7635378536a2" style="width: 100.0%; height: 100.0%;"><b>Парк Горького</b><br>Пушкинская набережная</div>`)[0];
+                popup_1473dba110fce75c54dcd59b523f7a4c.setContent(html_d93ab7a56e300b11e1fa7635378536a2);
+            
+        
+
+        marker_f082f0fbdb00ab994a1f2edfeee3f7fc.bindPopup(popup_1473dba110fce75c54dcd59b523f7a4c)
+        ;
+
+        
+    
+    
+            var marker_c03b681406f4ff203c932f546ddcf55b = L.marker(
+                [55.722427, 37.590694],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_7f4bc6047a41487c5356e7e5abb3b26b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7434cab8783668f289e3509314bf150 = $(`<div id="html_f7434cab8783668f289e3509314bf150" style="width: 100.0%; height: 100.0%;"><b>Нескучный сад</b><br>г. Москва, Вверх по течению о.Москва от Крымского моста со стороны ЦПКиО им.Горького, сход-трибуна Пушкинской набережной</div>`)[0];
+                popup_7f4bc6047a41487c5356e7e5abb3b26b.setContent(html_f7434cab8783668f289e3509314bf150);
+            
+        
+
+        marker_c03b681406f4ff203c932f546ddcf55b.bindPopup(popup_7f4bc6047a41487c5356e7e5abb3b26b)
+        ;
+
+        
+    
+    
+            var marker_61a207050d856e5fe2349ab01625315d = L.marker(
+                [55.732427, 37.596061],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_74ef1902e88619b576963b769814b845 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c70372ad5a3f8ce6ef473c35f54bf68 = $(`<div id="html_6c70372ad5a3f8ce6ef473c35f54bf68" style="width: 100.0%; height: 100.0%;"><b>Крымский мост</b><br>Фрунзенская набережная напротив д.10</div>`)[0];
+                popup_74ef1902e88619b576963b769814b845.setContent(html_6c70372ad5a3f8ce6ef473c35f54bf68);
+            
+        
+
+        marker_61a207050d856e5fe2349ab01625315d.bindPopup(popup_74ef1902e88619b576963b769814b845)
+        ;
+
+        
+    
+    
+            var marker_b73102900eadffa1c8fe133a7fc649dc = L.marker(
+                [55.641785, 37.725065],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_63a83f7f5971bcecad98c06b348bdc38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f991f7f2e1f4892637718722de625815 = $(`<div id="html_f991f7f2e1f4892637718722de625815" style="width: 100.0%; height: 100.0%;"><b>Марьино</b><br>Батайский проезд, д.33</div>`)[0];
+                popup_63a83f7f5971bcecad98c06b348bdc38.setContent(html_f991f7f2e1f4892637718722de625815);
+            
+        
+
+        marker_b73102900eadffa1c8fe133a7fc649dc.bindPopup(popup_63a83f7f5971bcecad98c06b348bdc38)
+        ;
+
+        
+    
+    
+            var marker_efadda8d4bbc1c0da9839fa18885be75 = L.marker(
+                [55.683699, 37.714149],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_f883b5c833fa2b4989e93f0d828f6d89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d59c77fbc0c254a66016f20dcdd47403 = $(`<div id="html_d59c77fbc0c254a66016f20dcdd47403" style="width: 100.0%; height: 100.0%;"><b>Печатники</b><br>ул.Гурьянова, д.35</div>`)[0];
+                popup_f883b5c833fa2b4989e93f0d828f6d89.setContent(html_d59c77fbc0c254a66016f20dcdd47403);
+            
+        
+
+        marker_efadda8d4bbc1c0da9839fa18885be75.bindPopup(popup_f883b5c833fa2b4989e93f0d828f6d89)
+        ;
+
+        
+    
+    
+            var marker_8961a648e1d35a97b54a734fd9e4f655 = L.marker(
+                [55.69106, 37.696817],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_a855416e076226ae091ad6b1d17fb88b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68485a1b8462beb657ee65edfe737364 = $(`<div id="html_68485a1b8462beb657ee65edfe737364" style="width: 100.0%; height: 100.0%;"><b>Меловой</b><br>Нагатинская набережная, владение 74</div>`)[0];
+                popup_a855416e076226ae091ad6b1d17fb88b.setContent(html_68485a1b8462beb657ee65edfe737364);
+            
+        
+
+        marker_8961a648e1d35a97b54a734fd9e4f655.bindPopup(popup_a855416e076226ae091ad6b1d17fb88b)
+        ;
+
+        
+    
+    
+            var marker_c5ec639016564e204641ceefaa6b82b3 = L.marker(
+                [55.689415, 37.675846],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_4bd8a0eef2c223bd0d3e416d0428b725 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a97e96311b92442667b1460add0cd2e1 = $(`<div id="html_a97e96311b92442667b1460add0cd2e1" style="width: 100.0%; height: 100.0%;"><b>Южный речной вокзал</b><br>г. Москва, левый берег р. Москва 1,7-2,2 км. (Нагатинское спрямление)</div>`)[0];
+                popup_4bd8a0eef2c223bd0d3e416d0428b725.setContent(html_a97e96311b92442667b1460add0cd2e1);
+            
+        
+
+        marker_c5ec639016564e204641ceefaa6b82b3.bindPopup(popup_4bd8a0eef2c223bd0d3e416d0428b725)
+        ;
+
+        
+    
+    
+            var marker_532b4ab289c1e3e355f5b0c032b42e89 = L.marker(
+                [55.686457, 37.67215],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_ddbdd1de073be98530fe368e19c57a2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a557c1d21da9080575eb5e2a5f86bf7a = $(`<div id="html_a557c1d21da9080575eb5e2a5f86bf7a" style="width: 100.0%; height: 100.0%;"><b>Кленовый бульвар</b><br>г. Москва, Нагатинвская набережная, напротив д.40А</div>`)[0];
+                popup_ddbdd1de073be98530fe368e19c57a2e.setContent(html_a557c1d21da9080575eb5e2a5f86bf7a);
+            
+        
+
+        marker_532b4ab289c1e3e355f5b0c032b42e89.bindPopup(popup_ddbdd1de073be98530fe368e19c57a2e)
+        ;
+
+        
+    
+    
+            var marker_8b926894db1d3b5392d81dde19c90492 = L.marker(
+                [55.711738, 37.546826],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_f59dc0df9599968e68f26a284ddf92a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe1f58e1610538c9674b5b36f214d5fa = $(`<div id="html_fe1f58e1610538c9674b5b36f214d5fa" style="width: 100.0%; height: 100.0%;"><b>Воробьевы горы</b><br>ул.Косыгина 28с23</div>`)[0];
+                popup_f59dc0df9599968e68f26a284ddf92a1.setContent(html_fe1f58e1610538c9674b5b36f214d5fa);
+            
+        
+
+        marker_8b926894db1d3b5392d81dde19c90492.bindPopup(popup_f59dc0df9599968e68f26a284ddf92a1)
+        ;
+
+        
+    
+    
+            var marker_b7d6d5971b80a80014da6374cb85c0ef = L.marker(
+                [55.743672, 37.571839],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_c80d3e34113f29a0af4822c68f184708 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad0fe6f8da1247723cedb2cc4723f647 = $(`<div id="html_ad0fe6f8da1247723cedb2cc4723f647" style="width: 100.0%; height: 100.0%;"><b>Киевский</b><br>г. Москва, Бережковская, между Бородинским и Краснолужском ж/д мостом</div>`)[0];
+                popup_c80d3e34113f29a0af4822c68f184708.setContent(html_ad0fe6f8da1247723cedb2cc4723f647);
+            
+        
+
+        marker_b7d6d5971b80a80014da6374cb85c0ef.bindPopup(popup_c80d3e34113f29a0af4822c68f184708)
+        ;
+
+        
+    
+    
+            var marker_f1482fb5b5117dea0ca93a18139c3b93 = L.marker(
+                [55.745129, 37.610627],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_a8640ffcf6d73f410b8ad49f14549816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc732fbc508f85a3fd533172926ed767 = $(`<div id="html_bc732fbc508f85a3fd533172926ed767" style="width: 100.0%; height: 100.0%;"><b>Красный октябрь</b><br>г. Москва, Берсеневская набережная, у дома 2 корпус 1</div>`)[0];
+                popup_a8640ffcf6d73f410b8ad49f14549816.setContent(html_bc732fbc508f85a3fd533172926ed767);
+            
+        
+
+        marker_f1482fb5b5117dea0ca93a18139c3b93.bindPopup(popup_a8640ffcf6d73f410b8ad49f14549816)
+        ;
+
+        
+    
+    
+            var marker_fe75db43f83ba08339ce650b3b1672a5 = L.marker(
+                [55.748745, 37.546796],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_4c847cdcc1c164a349b6e6a088dabb13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75da6f8a8335f807aa4b338756b7ba97 = $(`<div id="html_75da6f8a8335f807aa4b338756b7ba97" style="width: 100.0%; height: 100.0%;"><b>Сити – Экспоцентр</b><br>г. Москва, Краснопресненская набережная, напротив д.14</div>`)[0];
+                popup_4c847cdcc1c164a349b6e6a088dabb13.setContent(html_75da6f8a8335f807aa4b338756b7ba97);
+            
+        
+
+        marker_fe75db43f83ba08339ce650b3b1672a5.bindPopup(popup_4c847cdcc1c164a349b6e6a088dabb13)
+        ;
+
+        
+    
+    
+            var marker_cc0875f01ce3ea09cbe397162d7243e2 = L.marker(
+                [55.730281, 37.653392],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_81db90b33eb1c45fb045eab14717a6dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e2de3e31e8dc63759952b1d24fe788e = $(`<div id="html_6e2de3e31e8dc63759952b1d24fe788e" style="width: 100.0%; height: 100.0%;"><b>Новоспасский</b><br>г. Москва по течению р. Москва от Новоспасского моста со стороны Краснохолмской набережной</div>`)[0];
+                popup_81db90b33eb1c45fb045eab14717a6dd.setContent(html_6e2de3e31e8dc63759952b1d24fe788e);
+            
+        
+
+        marker_cc0875f01ce3ea09cbe397162d7243e2.bindPopup(popup_81db90b33eb1c45fb045eab14717a6dd)
+        ;
+
+        
+    
+    
+            var marker_61127b609fd66adbde29ec8addac247f = L.marker(
+                [55.748462, 37.635886],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_859da210f670174a98a2ac20ce1b6951 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aaa347123a4c506b733f83a042f4f3f = $(`<div id="html_0aaa347123a4c506b733f83a042f4f3f" style="width: 100.0%; height: 100.0%;"><b>Китай-город</b><br>Москворецкая набережная д.7</div>`)[0];
+                popup_859da210f670174a98a2ac20ce1b6951.setContent(html_0aaa347123a4c506b733f83a042f4f3f);
+            
+        
+
+        marker_61127b609fd66adbde29ec8addac247f.bindPopup(popup_859da210f670174a98a2ac20ce1b6951)
+        ;
+
+        
+    
+    
+            var marker_e226938344b5188580b624f8bf5aa6e8 = L.marker(
+                [55.743972, 37.608138],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_d0034de970c1b2f5ba911f3087215611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bd9d21a988c88230a37ea1a7aae20a2 = $(`<div id="html_9bd9d21a988c88230a37ea1a7aae20a2" style="width: 100.0%; height: 100.0%;"><b>Патриарший</b><br>г. Москва, набережная Пречистенская (Кропоткинская)</div>`)[0];
+                popup_d0034de970c1b2f5ba911f3087215611.setContent(html_9bd9d21a988c88230a37ea1a7aae20a2);
+            
+        
+
+        marker_e226938344b5188580b624f8bf5aa6e8.bindPopup(popup_d0034de970c1b2f5ba911f3087215611)
+        ;
+
+        
+    
+    
+            var marker_0a86c9150d92c5541fe1fa515be9a8e2 = L.marker(
+                [55.726423, 37.545615],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_74bd2401995151c79ae83c4cabe18fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91df8e104b20ef7354ebc8f69c393705 = $(`<div id="html_91df8e104b20ef7354ebc8f69c393705" style="width: 100.0%; height: 100.0%;"><b>Лужники – Северный</b><br>г. Москва, Лужнецкая Западная набережная</div>`)[0];
+                popup_74bd2401995151c79ae83c4cabe18fb5.setContent(html_91df8e104b20ef7354ebc8f69c393705);
+            
+        
+
+        marker_0a86c9150d92c5541fe1fa515be9a8e2.bindPopup(popup_74bd2401995151c79ae83c4cabe18fb5)
+        ;
+
+        
+    
+    
+            var marker_69d08ed6628110deaf7ae029ddc58dee = L.marker(
+                [55.744502, 37.618414],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_f9d0415c7d3fc6b4512a40214d00bf62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71775051d82b2b93c316b58dbb1e0bce = $(`<div id="html_71775051d82b2b93c316b58dbb1e0bce" style="width: 100.0%; height: 100.0%;"><b>Третьяковский</b><br>Болотная набережная д.14, стр.6</div>`)[0];
+                popup_f9d0415c7d3fc6b4512a40214d00bf62.setContent(html_71775051d82b2b93c316b58dbb1e0bce);
+            
+        
+
+        marker_69d08ed6628110deaf7ae029ddc58dee.bindPopup(popup_f9d0415c7d3fc6b4512a40214d00bf62)
+        ;
+
+        
+    
+    
+            var marker_5a91f18c15067e459a69e5a48c3ca63b = L.marker(
+                [55.744387, 37.538187],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_64928586f8feee0021aae1c8fe1bb695 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec0d25d1eae86dfbf10ccd3810290790 = $(`<div id="html_ec0d25d1eae86dfbf10ccd3810290790" style="width: 100.0%; height: 100.0%;"><b>Кутузовский</b><br>Набережная Тараса Шевченко 29</div>`)[0];
+                popup_64928586f8feee0021aae1c8fe1bb695.setContent(html_ec0d25d1eae86dfbf10ccd3810290790);
+            
+        
+
+        marker_5a91f18c15067e459a69e5a48c3ca63b.bindPopup(popup_64928586f8feee0021aae1c8fe1bb695)
+        ;
+
+        
+    
+    
+            var marker_d3d95ac6b05c588882eb551f4ee63833 = L.marker(
+                [55.79192, 37.409289],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_d10e0f4d66cac142be4c2c4cb5cc3c42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccca2809216490e0763ff1ecea094166 = $(`<div id="html_ccca2809216490e0763ff1ecea094166" style="width: 100.0%; height: 100.0%;"><b>Троице-Лыково</b><br>ул.Одинцовская д.28, стр.1</div>`)[0];
+                popup_d10e0f4d66cac142be4c2c4cb5cc3c42.setContent(html_ccca2809216490e0763ff1ecea094166);
+            
+        
+
+        marker_d3d95ac6b05c588882eb551f4ee63833.bindPopup(popup_d10e0f4d66cac142be4c2c4cb5cc3c42)
+        ;
+
+        
+    
+    
+            var marker_b81584ccf5527027b399824a0d887462 = L.marker(
+                [55.749486, 37.475581],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_2b4a11acfdcc0ede6b4cd7762be85e25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d49516619aeda76822667d9c575c642 = $(`<div id="html_8d49516619aeda76822667d9c575c642" style="width: 100.0%; height: 100.0%;"><b>Парк Фили</b><br>г. Москва, Крылатская набережная</div>`)[0];
+                popup_2b4a11acfdcc0ede6b4cd7762be85e25.setContent(html_8d49516619aeda76822667d9c575c642);
+            
+        
+
+        marker_b81584ccf5527027b399824a0d887462.bindPopup(popup_2b4a11acfdcc0ede6b4cd7762be85e25)
+        ;
+
+        
+    
+    
+            var marker_564ca6751654d5d98771353b4bd7c898 = L.marker(
+                [55.849065, 37.459077],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_c847d26c2c94dcbd2d70fdc84f0d5cb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99fc6588307aa689a0aa534546b1f7fd = $(`<div id="html_99fc6588307aa689a0aa534546b1f7fd" style="width: 100.0%; height: 100.0%;"><b>Захарково</b><br>г. Москва, берегоукрепление Химкинское-2, проезд Досфлота напротив д.16, корп.1</div>`)[0];
+                popup_c847d26c2c94dcbd2d70fdc84f0d5cb5.setContent(html_99fc6588307aa689a0aa534546b1f7fd);
+            
+        
+
+        marker_564ca6751654d5d98771353b4bd7c898.bindPopup(popup_c847d26c2c94dcbd2d70fdc84f0d5cb5)
+        ;
+
+        
+    
+    
+            var marker_4caeabaa4619f5f600cb11af3012a18f = L.marker(
+                [55.754254, 37.56394],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_fd3059761411192a3e15218385744bd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bd89f868a7f28ccdc74ceadf975ad89 = $(`<div id="html_9bd89f868a7f28ccdc74ceadf975ad89" style="width: 100.0%; height: 100.0%;"><b>Трёхгорный</b><br>Краснопресненская набережная, 10, корп. 7</div>`)[0];
+                popup_fd3059761411192a3e15218385744bd5.setContent(html_9bd89f868a7f28ccdc74ceadf975ad89);
+            
+        
+
+        marker_4caeabaa4619f5f600cb11af3012a18f.bindPopup(popup_fd3059761411192a3e15218385744bd5)
+        ;
+
+        
+    
+    
+            var marker_0ef2852eb6438509e8755c6cde5c363a = L.marker(
+                [55.746481, 37.545233],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_8efe8244d4e1e0d26182f26d92ad34a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adf53f632171f0764b3ac051d35ba267 = $(`<div id="html_adf53f632171f0764b3ac051d35ba267" style="width: 100.0%; height: 100.0%;"><b>Сити – Багратион</b><br>г. Москва, набережная Тараса Шевченко у дома 23</div>`)[0];
+                popup_8efe8244d4e1e0d26182f26d92ad34a6.setContent(html_adf53f632171f0764b3ac051d35ba267);
+            
+        
+
+        marker_0ef2852eb6438509e8755c6cde5c363a.bindPopup(popup_8efe8244d4e1e0d26182f26d92ad34a6)
+        ;
+
+        
+    
+    
+            var marker_f4af7df415adf9b4934cd7738e47121d = L.marker(
+                [55.713129, 37.549501],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_c37ba1ed6bce1c30704e6c0fddea20f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c83a3c7ec6fa41e5d6dedf474a4c3eb = $(`<div id="html_3c83a3c7ec6fa41e5d6dedf474a4c3eb" style="width: 100.0%; height: 100.0%;"><b>Лужники - Центральный</b><br>г. Москва, Центральная Лужнецкая набережная</div>`)[0];
+                popup_c37ba1ed6bce1c30704e6c0fddea20f4.setContent(html_3c83a3c7ec6fa41e5d6dedf474a4c3eb);
+            
+        
+
+        marker_f4af7df415adf9b4934cd7738e47121d.bindPopup(popup_c37ba1ed6bce1c30704e6c0fddea20f4)
+        ;
+
+        
+    
+    
+            var marker_a55db4eab38bf7daa7a322f6bcb15cf1 = L.marker(
+                [55.851125, 37.466138],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_296214d12fe3467f9eb38f534fef3ecf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1018f7113a866f2ea49d82208216f32c = $(`<div id="html_1018f7113a866f2ea49d82208216f32c" style="width: 100.0%; height: 100.0%;"><b>Северный речной вокзал</b><br>Ленинградское шоссе, д.51</div>`)[0];
+                popup_296214d12fe3467f9eb38f534fef3ecf.setContent(html_1018f7113a866f2ea49d82208216f32c);
+            
+        
+
+        marker_a55db4eab38bf7daa7a322f6bcb15cf1.bindPopup(popup_296214d12fe3467f9eb38f534fef3ecf)
+        ;
+
+        
+    
+    
+            var marker_5f8e6bc70531c1f8f5e294e9c1f4fb46 = L.marker(
+                [55.711646, 37.572238],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_e15f4f2276ff0f7b3d8b8078da2c3650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f69f7585c06b5c57c19b6b3e5f0268b9 = $(`<div id="html_f69f7585c06b5c57c19b6b3e5f0268b9" style="width: 100.0%; height: 100.0%;"><b>Андреевский</b><br>Андреевская набережная д.2, стр.7</div>`)[0];
+                popup_e15f4f2276ff0f7b3d8b8078da2c3650.setContent(html_f69f7585c06b5c57c19b6b3e5f0268b9);
+            
+        
+
+        marker_5f8e6bc70531c1f8f5e294e9c1f4fb46.bindPopup(popup_e15f4f2276ff0f7b3d8b8078da2c3650)
+        ;
+
+        
+    
+    
+            var marker_bb6d3e4353cf922180434fd6d93608b4 = L.marker(
+                [55.749528, 37.629242],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_33f36f885b77c162dcf0ee559e769040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33fe9f2443a00d3bddc0032630330e5c = $(`<div id="html_33fe9f2443a00d3bddc0032630330e5c" style="width: 100.0%; height: 100.0%;"><b>Зарядье</b><br>г. Москва, Москворецкая набережная, парк Зарядье</div>`)[0];
+                popup_33f36f885b77c162dcf0ee559e769040.setContent(html_33fe9f2443a00d3bddc0032630330e5c);
+            
+        
+
+        marker_bb6d3e4353cf922180434fd6d93608b4.bindPopup(popup_33f36f885b77c162dcf0ee559e769040)
+        ;
+
+        
+    
+    
+            var marker_638348300283db996e2a9cc0e52218be = L.marker(
+                [55.785823, 37.424496],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_9a7011afe53041674ff6af1b06860e78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e0f0e72d2ad7ab068c89c568d52f747 = $(`<div id="html_1e0f0e72d2ad7ab068c89c568d52f747" style="width: 100.0%; height: 100.0%;"><b>Серебряный бор-2</b><br>г. Москва, Серебряный бор, ул. Таманская напротив д. 91А, стр. 1</div>`)[0];
+                popup_9a7011afe53041674ff6af1b06860e78.setContent(html_1e0f0e72d2ad7ab068c89c568d52f747);
+            
+        
+
+        marker_638348300283db996e2a9cc0e52218be.bindPopup(popup_9a7011afe53041674ff6af1b06860e78)
+        ;
+
+        
+    
+    
+            var marker_64d94181b78ee5cfe2f3d93755ac467b = L.marker(
+                [55.785127, 37.444882],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_9ce3b4a41349d2c93e0e74a73af847f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4df7e86efe970f23dda3752b1e36e61 = $(`<div id="html_c4df7e86efe970f23dda3752b1e36e61" style="width: 100.0%; height: 100.0%;"><b>Серебряный бор-3</b><br>г. Москва, Серебряный Бор, лит.1</div>`)[0];
+                popup_9ce3b4a41349d2c93e0e74a73af847f9.setContent(html_c4df7e86efe970f23dda3752b1e36e61);
+            
+        
+
+        marker_64d94181b78ee5cfe2f3d93755ac467b.bindPopup(popup_9ce3b4a41349d2c93e0e74a73af847f9)
+        ;
+
+        
+    
+    
+            var marker_b28309c221bd0c050e3691cf79dd1f56 = L.marker(
+                [55.746589, 37.541693],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_719015ee7ef50eab4967b8a4b97584e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f578dc7dbab701e32e18a32865d37628 = $(`<div id="html_f578dc7dbab701e32e18a32865d37628" style="width: 100.0%; height: 100.0%;"><b>Сити – Центральный</b><br>Пресненская наб., 12</div>`)[0];
+                popup_719015ee7ef50eab4967b8a4b97584e0.setContent(html_f578dc7dbab701e32e18a32865d37628);
+            
+        
+
+        marker_b28309c221bd0c050e3691cf79dd1f56.bindPopup(popup_719015ee7ef50eab4967b8a4b97584e0)
+        ;
+
+        
+    
+    
+            var marker_edb3574d559f54382a6511f90c4f3f3a = L.marker(
+                [55.702836, 37.626632],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_7308bb35a5235af145f7e605c68dd5e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_286a0f034e793b88b0beb294aa92268c = $(`<div id="html_286a0f034e793b88b0beb294aa92268c" style="width: 100.0%; height: 100.0%;"><b>Автозаводский мост</b><br>	Новоданиловская набережная, 2к1	 </div>`)[0];
+                popup_7308bb35a5235af145f7e605c68dd5e7.setContent(html_286a0f034e793b88b0beb294aa92268c);
+            
+        
+
+        marker_edb3574d559f54382a6511f90c4f3f3a.bindPopup(popup_7308bb35a5235af145f7e605c68dd5e7)
+        ;
+
+        
+    
+    
+            var marker_bd3fba781ad64427f866a6166085fbb5 = L.marker(
+                [55.886542, 37.458891],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_0516e44b84d1cb8d167d8b3adce6a388 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbbfcba897b7f322e568b4b3dbdbef24 = $(`<div id="html_bbbfcba897b7f322e568b4b3dbdbef24" style="width: 100.0%; height: 100.0%;"><b>Химки</b><br>МО, Химки,напротив ул. Ватутина, д. 4, к. 2</div>`)[0];
+                popup_0516e44b84d1cb8d167d8b3adce6a388.setContent(html_bbbfcba897b7f322e568b4b3dbdbef24);
+            
+        
+
+        marker_bd3fba781ad64427f866a6166085fbb5.bindPopup(popup_0516e44b84d1cb8d167d8b3adce6a388)
+        ;
+
+        
+    
+    
+            var marker_b2e01b1f1e3bac057dd388fd65ddd65f = L.marker(
+                [55.76049721, 37.51224589],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_2fc6b40d2656c2bb00fbbdf7122d5c40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4396faf75bb42b8f59df5caefd1b8905 = $(`<div id="html_4396faf75bb42b8f59df5caefd1b8905" style="width: 100.0%; height: 100.0%;"><b>Сердце Столицы</b><br>Шелепихинская набережная, 26</div>`)[0];
+                popup_2fc6b40d2656c2bb00fbbdf7122d5c40.setContent(html_4396faf75bb42b8f59df5caefd1b8905);
+            
+        
+
+        marker_b2e01b1f1e3bac057dd388fd65ddd65f.bindPopup(popup_2fc6b40d2656c2bb00fbbdf7122d5c40)
+        ;
+
+        
+    
+    
+            var marker_8a9fc2723f461cc8d190277dfc38c1a7 = L.marker(
+                [55.6999347, 37.628875],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_bd9261b8522b16be2a418d91ca431b5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d19acd919aebb8d0d2f5228fd916de8 = $(`<div id="html_5d19acd919aebb8d0d2f5228fd916de8" style="width: 100.0%; height: 100.0%;"><b>ЗИЛ</b><br>г. Москва, ул. Нов. Башиловка, д. 3</div>`)[0];
+                popup_bd9261b8522b16be2a418d91ca431b5b.setContent(html_5d19acd919aebb8d0d2f5228fd916de8);
+            
+        
+
+        marker_8a9fc2723f461cc8d190277dfc38c1a7.bindPopup(popup_bd9261b8522b16be2a418d91ca431b5b)
+        ;
+
+        
+    
+    
+            var marker_4d9718867157a2238391f31b71bfead2 = L.marker(
+                [55.685878, 37.701144],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_9377beeaceb773964a0bbbd967bd6398 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f77626e950051e42aaa07d3a68cf3142 = $(`<div id="html_f77626e950051e42aaa07d3a68cf3142" style="width: 100.0%; height: 100.0%;"><b>Нагатинский затон</b><br>Нагатинская набережная, 34</div>`)[0];
+                popup_9377beeaceb773964a0bbbd967bd6398.setContent(html_f77626e950051e42aaa07d3a68cf3142);
+            
+        
+
+        marker_4d9718867157a2238391f31b71bfead2.bindPopup(popup_9377beeaceb773964a0bbbd967bd6398)
+        ;
+
+        
+    
+    
+            var marker_fe73a4c7acfbc2abf3dbee9298b5300d = L.marker(
+                [55.758389, 37.512611],
+                {}
+            ).addTo(map_f356a37b0785def6bb7f7e5b949d1e55);
+        
+    
+        var popup_8d5444d19b875722b198a0d17b621430 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_015a4eda2c61407364df63391e19c886 = $(`<div id="html_015a4eda2c61407364df63391e19c886" style="width: 100.0%; height: 100.0%;"><b>Береговой</b><br>Береговой проезд, 1А</div>`)[0];
+                popup_8d5444d19b875722b198a0d17b621430.setContent(html_015a4eda2c61407364df63391e19c886);
+            
+        
+
+        marker_fe73a4c7acfbc2abf3dbee9298b5300d.bindPopup(popup_8d5444d19b875722b198a0d17b621430)
+        ;
+
+        
+    
+</script>
+</html>

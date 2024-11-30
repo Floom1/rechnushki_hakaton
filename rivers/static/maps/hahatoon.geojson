@@ -1,0 +1,473 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.73013,37.597184 ]
+    },
+    "properties": {
+    "id":31,
+    "name":"Парк Горького",
+    "address":"Пушкинская набережная",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.722427,37.590694 ]
+    },
+    "properties": {
+    "id":32,
+    "name":"Нескучный сад",
+    "address":"г. Москва, Вверх по течению о.Москва от Крымского моста со стороны ЦПКиО им.Горького, сход-трибуна Пушкинской набережной",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.732427,37.596061 ]
+    },
+    "properties": {
+    "id":33,
+    "name":"Крымский мост",
+    "address":"Фрунзенская набережная напротив д.10",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.641785,37.725065 ]
+    },
+    "properties": {
+    "id":39,
+    "name":"Марьино",
+    "address":"Батайский проезд, д.33",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.683699,37.714149 ]
+    },
+    "properties": {
+    "id":41,
+    "name":"Печатники",
+    "address":"ул.Гурьянова, д.35",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.69106,37.696817 ]
+    },
+    "properties": {
+    "id":42,
+    "name":"Меловой",
+    "address":"Нагатинская набережная, владение 74",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.689415,37.675846 ]
+    },
+    "properties": {
+    "id":43,
+    "name":"Южный речной вокзал",
+    "address":"г. Москва, левый берег р. Москва 1,7-2,2 км. (Нагатинское спрямление)",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.686457,37.67215 ]
+    },
+    "properties": {
+    "id":44,
+    "name":"Кленовый бульвар",
+    "address":"г. Москва, Нагатинвская набережная, напротив д.40А",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.711738,37.546826 ]
+    },
+    "properties": {
+    "id":45,
+    "name":"Воробьевы горы",
+    "address":"ул.Косыгина 28с23",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.743672,37.571839 ]
+    },
+    "properties": {
+    "id":46,
+    "name":"Киевский",
+    "address":"г. Москва, Бережковская, между Бородинским и Краснолужском ж/д мостом",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.745129,37.610627 ]
+    },
+    "properties": {
+    "id":47,
+    "name":"Красный октябрь",
+    "address":"г. Москва, Берсеневская набережная, у дома 2 корпус 1",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.748745,37.546796 ]
+    },
+    "properties": {
+    "id":48,
+    "name":"Сити – Экспоцентр",
+    "address":"г. Москва, Краснопресненская набережная, напротив д.14",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.730281,37.653392 ]
+    },
+    "properties": {
+    "id":49,
+    "name":"Новоспасский",
+    "address":"г. Москва по течению р. Москва от Новоспасского моста со стороны Краснохолмской набережной",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.748462,37.635886 ]
+    },
+    "properties": {
+    "id":50,
+    "name":"Китай-город",
+    "address":"Москворецкая набережная д.7",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.743972,37.608138 ]
+    },
+    "properties": {
+    "id":51,
+    "name":"Патриарший",
+    "address":"г. Москва, набережная Пречистенская (Кропоткинская)",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.726423,37.545615 ]
+    },
+    "properties": {
+    "id":54,
+    "name":"Лужники – Северный",
+    "address":"г. Москва, Лужнецкая Западная набережная",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.744502,37.618414 ]
+    },
+    "properties": {
+    "id":55,
+    "name":"Третьяковский",
+    "address":"Болотная набережная д.14, стр.6",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.744387,37.538187 ]
+    },
+    "properties": {
+    "id":56,
+    "name":"Кутузовский",
+    "address":"Набережная Тараса Шевченко 29",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.79192,37.409289 ]
+    },
+    "properties": {
+    "id":57,
+    "name":"Троице-Лыково",
+    "address":"ул.Одинцовская д.28, стр.1",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.749486,37.475581 ]
+    },
+    "properties": {
+    "id":60,
+    "name":"Парк Фили",
+    "address":"г. Москва, Крылатская набережная",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.849065,37.459077 ]
+    },
+    "properties": {
+    "id":61,
+    "name":"Захарково",
+    "address":"г. Москва, берегоукрепление Химкинское-2, проезд Досфлота напротив д.16, корп.1",
+    "river":"Канал им. Москвы"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.754254,37.56394 ]
+    },
+    "properties": {
+    "id":62,
+    "name":"Трёхгорный",
+    "address":"Краснопресненская набережная, 10, корп. 7",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.746481,37.545233 ]
+    },
+    "properties": {
+    "id":64,
+    "name":"Сити – Багратион",
+    "address":"г. Москва, набережная Тараса Шевченко у дома 23",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.713129,37.549501 ]
+    },
+    "properties": {
+    "id":67,
+    "name":"Лужники - Центральный",
+    "address":"г. Москва, Центральная Лужнецкая набережная",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.851125,37.466138 ]
+    },
+    "properties": {
+    "id":71,
+    "name":"Северный речной вокзал",
+    "address":"Ленинградское шоссе, д.51",
+    "river":"Канал им. Москвы"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.711646,37.572238 ]
+    },
+    "properties": {
+    "id":72,
+    "name":"Андреевский",
+    "address":"Андреевская набережная д.2, стр.7",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.749528,37.629242 ]
+    },
+    "properties": {
+    "id":73,
+    "name":"Зарядье",
+    "address":"г. Москва, Москворецкая набережная, парк Зарядье",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.785823,37.424496 ]
+    },
+    "properties": {
+    "id":75,
+    "name":"Серебряный бор-2",
+    "address":"г. Москва, Серебряный бор, ул. Таманская напротив д. 91А, стр. 1",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.785127,37.444882 ]
+    },
+    "properties": {
+    "id":93,
+    "name":"Серебряный бор-3",
+    "address":"г. Москва, Серебряный Бор, лит.1",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.746589,37.541693 ]
+    },
+    "properties": {
+    "id":97,
+    "name":"Сити – Центральный",
+    "address":"Пресненская наб., 12",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.702836,37.626632 ]
+    },
+    "properties": {
+    "id":146,
+    "name":"Автозаводский мост",
+    "address":"\tНоводаниловская набережная, 2к1\t ",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.886542,37.458891 ]
+    },
+    "properties": {
+    "id":167,
+    "name":"Химки",
+    "address":"МО, Химки,напротив ул. Ватутина, д. 4, к. 2",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.76049721,37.51224589 ]
+    },
+    "properties": {
+    "id":172,
+    "name":"Сердце Столицы",
+    "address":"Шелепихинская набережная, 26",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.6999347,37.628875 ]
+    },
+    "properties": {
+    "id":187,
+    "name":"ЗИЛ",
+    "address":"г. Москва, ул. Нов. Башиловка, д. 3",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.685878,37.701144 ]
+    },
+    "properties": {
+    "id":188,
+    "name":"Нагатинский затон",
+    "address":"Нагатинская набережная, 34",
+    "river":"Москва"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.758389,37.512611 ]
+    },
+    "properties": {
+    "id":192,
+    "name":"Береговой",
+    "address":"Береговой проезд, 1А",
+    "river":"Москва"
+    }
+  }
+]
+}
