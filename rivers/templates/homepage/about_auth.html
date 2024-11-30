@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Добро пожаловать!{% endblock %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/homepage/about.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Добро пожаловать!</h2>
+    <p>Зарегистрируйтесь для получения функционала сайта!</p>
+    <div class="button-container">
+        <a href="{% url 'about' %}" class="btn">Войти</a>
+        <a href="{% url 'about' %}" class="btn">Зарегистрироваться</a>
+    </div>
+</div>
+{% endblock %}

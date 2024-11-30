@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Заказ поездки{% endblock %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/homepage/order_trip.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Заказ поездки</h2>
+
+    <!-- Поле для начальной точки маршрута -->
+    <label for="start-point">Начало поездки:</label>
+    <input type="text" id="start-point" placeholder="Укажите начальную точку">
+
+    <!-- Поле для конечной точки маршрута -->
+    <label for="end-point">Конечная точка маршрута:</label>
+    <input type="text" id="end-point" placeholder="Укажите конечную точку">
+
+    <!-- Карта Яндекс -->
+    <div class="map">
+        <!-- Заглушка для карты -->
+        <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A74c8e4be217f2f3cb505d1e2270c123af6b6e1e2ae25ae25648deac9da2185c4&amp;source=constructor"
+            width="100%"
+            height="400"
+            frameborder="0">
+        </iframe>
+    </div>
+
+    <!-- Примерное время поездки -->
+    <label for="estimated-time">Примерное время поездки:</label>
+    <div id="estimated-time" class="placeholder">~ Ожидается расчет...</div>
+
+    <!-- Кнопка заказать -->
+    <button type="button" class="btn">Заказать</button>
+</div>
+{% endblock %}
